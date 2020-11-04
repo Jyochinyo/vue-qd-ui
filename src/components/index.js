@@ -1,3 +1,4 @@
+import Vue from 'vue'
 // Import vue component
 import component from './HelloWorld.vue'
 
@@ -14,12 +15,12 @@ const plugin = {
 }
 
 // To auto-install when vue is found
-let GlobalVue = null
-if (typeof window !== 'undefined') {
-  GlobalVue = window.Vue
-} else if (typeof global !== 'undefined') {
-  GlobalVue = global.Vue
-}
+let GlobalVue = Vue
+// if (typeof window !== 'undefined') {
+//   GlobalVue = window.Vue
+// } else if (typeof global !== 'undefined') {
+//   GlobalVue = global.Vue
+// }
 if (GlobalVue) {
   GlobalVue.use(plugin)
 }

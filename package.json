@@ -1,6 +1,6 @@
 {
   "name": "vue-qdui",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "components store from qd",
   "main": "dist/qdui.umd.js",
   "scripts": {
