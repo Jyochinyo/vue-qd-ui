@@ -1,0 +1,24 @@
+{
+  "name": "qdui",
+  "version": "1.0.0",
+  "description": "components store from qd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jyochinyo/vue-qd-ui.git"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "qd"
+  ],
+  "author": "Jyo&Huang yeahyeah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jyochinyo/vue-qd-ui/issues"
+  },
+  "homepage": "https://github.com/Jyochinyo/vue-qd-ui#readme"
+}
